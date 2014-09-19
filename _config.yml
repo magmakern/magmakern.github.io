@@ -10,10 +10,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://magmakern.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
-whitelist: 
-  - ./_plugins/exploit_gem.rb
-gems: 
-  - ./_plugins/exploit_gem.rb
 safe: true
 # Build settings
-markdown: maruku 
+markdown: kramdown
+kramdown:
+  template: ./_plugins/lol.erb 
