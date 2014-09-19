@@ -16,4 +16,4 @@ gems:
   - ./_plugins/exploit_gem.rb
 safe: true
 # Build settings
-markdown: MyCustomProcessor
+markdown: maruku 
